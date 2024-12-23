@@ -6,6 +6,8 @@ on:
 
 jobs:
   update-stats:
+    permissions:
+      contents: write    # Add permission to push to repository
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -18,16 +20,23 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install csv-parse
+        working-directory: ./resume
+        run: npm install
 
       - name: Convert and Update Stats
         run: |
-          node src/utils/processData.js src/assets/data-export.csv
+          node ./resume/src/utils/processData.js ./resume/src/assets/data-export.csv
 
       - name: Commit and Push to main
         run: |
           git config --global user.name 'GitHub Action Bot'
           git config --global user.email 'action@github.com'
-          git add src/assets/visitor-stats.json
+          git add ./resume/src/assets/visitor-stats.json
           git commit -m "Update visitor stats" || exit 0
           git push origin main
+
+      - name: Deploy to Github Pages
+        working-directory: ./resume
+        run: |
+          npm run build
+          npm run deploy
