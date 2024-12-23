@@ -1,5 +1,5 @@
 import { BookOpen, Award } from 'lucide-react';
-import { papers } from '../constants/data';
+import { papers } from '../constants/data.jsx';
 import {
     CommandText,
     TerminalContainer,

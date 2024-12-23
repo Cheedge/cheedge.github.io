@@ -1,4 +1,4 @@
-import { experience } from '../constants/data';
+import { experience } from '../constants/data.jsx';
 import {
     CommandText,
     TerminalContainer,

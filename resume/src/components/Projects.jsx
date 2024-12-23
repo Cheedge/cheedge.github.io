@@ -1,4 +1,4 @@
-import { projects } from '../constants/data';
+import { projects } from '../constants/data.jsx';
 import {
     CommandText,
     TerminalContainer,
