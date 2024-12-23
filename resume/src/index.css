@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* If you want to keep some custom styles, add them after Tailwind */
+@layer base {
+  body {
+    @apply m-0 min-h-screen;
+  }
+}

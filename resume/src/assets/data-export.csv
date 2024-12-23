@@ -1,0 +1,233 @@
+# ----------------------------------------
+# Report CSV Export
+# Account: Cheedge Lee
+# Property: website
+# ----------------------------------------
+#  
+# Start date: 20241125
+# End date: 20241222
+Nth day,Active users
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,0
+0017,0
+0018,0
+0019,0
+0020,0
+0021,0
+0022,0
+0023,0
+0024,0
+0025,0
+0026,0
+0027,7
+
+# Start date: 20241125
+# End date: 20241222
+Nth day,New users
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,0
+0017,0
+0018,0
+0019,0
+0020,0
+0021,0
+0022,0
+0023,0
+0024,0
+0025,0
+0026,0
+0027,7
+
+# Start date: 20241125
+# End date: 20241222
+Nth day,Average engagement time per active user
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,0
+0017,0
+0018,0
+0019,0
+0020,0
+0021,0
+0022,0
+0023,0
+0024,0
+0025,0
+0026,0
+0027,9.714285714285714
+
+# Start date: 20241125
+# End date: 20241222
+Nth day,Total revenue
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,0
+0017,0
+0018,0
+0019,0
+0020,0
+0021,0
+0022,0
+0023,0
+0024,0
+0025,0
+0026,0
+0027,0
+
+# Where do your new users come from?
+# Start date: 20241125
+# End date: 20241222
+First user primary channel group (Default Channel Group),New users
+Direct,5
+Referral,2
+
+#  
+# Start date: 20241125
+# End date: 20241222
+Session primary channel group (Default Channel Group),Sessions
+Direct,6
+Unassigned,3
+Referral,2
+
+#  
+# Start date: 20241125
+# End date: 20241222
+Country ID,Active users
+DE,4
+US,1
+
+# Start date: 20241125
+# End date: 20241222
+Country,Active users
+DE,4
+US,1
+
+# How are active users trending?
+# Start date: 20241125
+# End date: 20241222
+Nth day,30 days,7 days,1 day
+0000,0,0,0
+0001,0,0,0
+0002,0,0,0
+0003,0,0,0
+0004,0,0,0
+0005,0,0,0
+0006,0,0,0
+0007,0,0,0
+0008,0,0,0
+0009,0,0,0
+0010,0,0,0
+0011,0,0,0
+0012,0,0,0
+0013,0,0,0
+0014,0,0,0
+0015,0,0,0
+0016,0,0,0
+0017,0,0,0
+0018,0,0,0
+0019,0,0,0
+0020,0,0,0
+0021,0,0,0
+0022,0,0,0
+0023,0,0,0
+0024,0,0,0
+0025,0,0,0
+0026,0,0,0
+0027,7,7,7
+
+#  
+# Start date: 20241125
+# End date: 20241222
+Page title and screen class,Views
+Vite + React,19
+
+#  
+# Start date: 20241125
+# End date: 20241222
+Event name,Event count
+page_view,19
+scroll,9
+session_start,8
+first_visit,7
+user_engagement,7
+
+# What are your top conversions?
+# Start date: 20241125
+# End date: 20241222
+Event name,Key events
+
+
+# Where does your LTV come from?
+# Start date: 20241125
+# End date: 20241222
+First user primary channel group (Default Channel Group),Average 120d value
+
+
+#  
+# Start date: 20241125
+# End date: 20241222
+Item name,Items purchased
+
+
+# How does activity on your platforms compare?
+# Start date: 20241125
+# End date: 20241222
+Platform,Key events
