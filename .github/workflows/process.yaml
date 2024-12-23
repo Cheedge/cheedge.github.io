@@ -35,8 +35,12 @@ jobs:
           git commit -m "Update visitor stats" || exit 0
           git push origin main
 
-      - name: Deploy to Github Pages
+      - name: Deploy to GitHub Pages
         working-directory: ./resume
+        env:
+          GIT_USER: github-actions[bot]
+          # GIT_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npm run build
-          npm run deploy
+          npx gh-pages -d dist --repo https://x-access-token:${GITHUB_TOKEN}@github.com/cheedge/cheedge.github.io.git
