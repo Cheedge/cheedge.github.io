@@ -1,9 +1,7 @@
 import linuxLogo from '../assets/linux_color_logo.svg';
 import azureLogo from '../assets/azure_icon.svg';
-// import azureIcon from '../assets/azure_log.svg';
 import awsIcon from '../assets/aws_icon.svg';
 import embeddingIcon from '../assets/embedding.svg';
-// import cIcon2 from '../assets/c.svg';
 import cIcon from '../assets/c_icon.svg';
 import dockerIcon from '../assets/docker_icon.svg';
 import transIcon from '../assets/translate_icon.svg';

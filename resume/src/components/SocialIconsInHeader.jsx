@@ -1,4 +1,3 @@
-import orcidIcon from '../assets/orcid_icon.svg';
 import githubIcon from '../assets/github.svg';
 import linkedinIcon from '../assets/linkedin.svg';
 import codeIcon from '../assets/code_icon.svg';

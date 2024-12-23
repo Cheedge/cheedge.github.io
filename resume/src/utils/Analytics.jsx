@@ -53,31 +53,3 @@ async function fetchVisitorCount() {
         resolve(1234); // Placeholder value
     });
 }
-
-// const fs = require('fs');
-// const path = require('path');
-
-// // This would run on a schedule (e.g., daily) via GitHub Actions
-// async function updateVisitorStats() {
-//     try {
-//         // Read the existing stats file
-//         const statsPath = path.join(
-//             process.cwd(),
-//             'public',
-//             'visitor-stats.json'
-//         );
-//         const existingStats = JSON.parse(fs.readFileSync(statsPath, 'utf8'));
-
-//         // In a real implementation, you'd get this from your analytics
-//         // For now, we'll simulate with localStorage or a simple counter
-//         const newStats = {
-//             timestamp: new Date().toISOString(),
-//             totalVisitors: 0,
-//             visitorsByCountry: {},
-//         };
-
-//         fs.writeFileSync(statsPath, JSON.stringify(newStats, null, 2));
-//     } catch (error) {
-//         console.error('Error updating visitor stats:', error);
-//     }
-// }
