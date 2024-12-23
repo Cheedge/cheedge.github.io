@@ -1,0 +1,33 @@
+name: Update Visitor Stats
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs at midnight every day
+  workflow_dispatch:      # Allows manual trigger for testing
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install csv-parse
+
+      - name: Convert and Update Stats
+        run: |
+          node src/utils/processData.js src/assets/data-export.csv
+
+      - name: Commit and Push to main
+        run: |
+          git config --global user.name 'GitHub Action Bot'
+          git config --global user.email 'action@github.com'
+          git add src/assets/visitor-stats.json
+          git commit -m "Update visitor stats" || exit 0
+          git push origin main
