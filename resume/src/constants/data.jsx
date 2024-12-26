@@ -11,50 +11,50 @@ export const certificates = [
         title: 'AWS Certified Cloud Practitioner',
         issuer: 'Amazon Web Services',
         date: 'June 2024',
-        link: 'https://aws.amazon.com/verification',
+        link: 'https://cp.certmetrics.com/amazon/en/public/verify/credential/8b6ab53361534bc39301461ebb2d8843',
         image: awsIcon,
+    },
+    {
+        title: 'LPIC-1 (101-500v & 102-500v)',
+        issuer: 'Linux Professinal Institute',
+        date: 'May 2024',
+        link: 'https://cs.lpi.org/caf/Xamman/certification',
+        image: linuxLogo,
     },
     {
         title: 'Microsoft certificated: Azure Fundamentals',
         issuer: 'Microsoft',
         date: 'April 2024',
-        link: 'https://aws.amazon.com/verification',
+        link: 'https://learn.microsoft.com/api/credentials/share/en-us/CheedgeLee-9369/8D2F8B6B168B001?sharingId=11586E971D564CEC',
         image: azureLogo,
     },
     {
-        title: 'LPIC-1 (101-500 & 102-500)',
-        issuer: 'Linux Professinal Institute',
-        date: 'May 2024',
-        link: 'https://google.com/certificates',
-        image: linuxLogo, // Replace with actual certificate badge
-    },
-    {
         title: 'Docker',
-        issuer: 'Linux Professinal Institute',
+        issuer: 'Docker',
         date: '2024',
         link: 'https://google.com/certificates',
-        image: dockerIcon, // Replace with actual certificate badge
+        image: dockerIcon,
     },
     {
         title: 'Embedding System (Level 3)',
         issuer: 'National Education Examinations Authority',
         date: 'September 2014',
         link: 'http://chaxun.neea.edu.cn/',
-        image: embeddingIcon, // Replace with actual certificate badge
+        image: embeddingIcon,
     },
     {
         title: 'C',
         issuer: 'National Education Examinations Authority',
         date: 'September 2014',
         link: 'http://chaxun.neea.edu.cn/',
-        image: cIcon, // Replace with actual certificate badge
+        image: cIcon,
     },
     {
         title: 'National Accreditation Examinations for Translators and Interpreters (NAETI)',
         issuer: 'National Education Examinations Authority',
         date: 'May 2014',
         link: 'http://chaxun.neea.edu.cn/',
-        image: transIcon, // Replace with actual certificate badge
+        image: transIcon,
     },
 ];
 
