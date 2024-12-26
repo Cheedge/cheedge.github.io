@@ -114,7 +114,7 @@ export const projects = [
         title: 'Leben In Deutschland',
         description:
             'A test and exerise website to prepare LiD Prüfung or Einbürgerungstest',
-        link: 'https://project-alpha.com',
+        link: 'https://xn--einbrgerungstest-mzb.leeindeutschland.de/',
         technologies: [
             'AWS_S3',
             'AWS_Lambda',
@@ -127,7 +127,7 @@ export const projects = [
         ],
     },
     {
-        title: 'Li',
+        title: 'L.Q.Z.',
         description: 'Personal Website',
         link: 'https://cheedge.leeindeutschland.de/',
         technologies: [
@@ -171,8 +171,8 @@ export const experience = [
         description: 'elk group',
     },
     {
-        company: 'Max Planck Institute',
-        position: 'Phd Student/Reseacher',
+        company: 'Max-Planck-Institut für Mikrostrukturphysik',
+        position: 'Phd Student',
         period: '2018-2019',
         description: 'td-dft',
     },

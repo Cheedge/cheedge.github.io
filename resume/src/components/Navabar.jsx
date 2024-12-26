@@ -20,11 +20,11 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                                 <span
                                     className={`transition-all duration-300 overflow-hidden inline-flex ${
                                         isHovered
-                                            ? 'w-14 opacity-100'
+                                            ? 'w-16 opacity-100'
                                             : 'w-0 opacity-0'
-                                    }`}
+                                    }`} // w-16 can change the length of charactors show
                                 >
-                                    Q.&nbsp;Z.
+                                    Qi&nbsp;Zhi
                                 </span>
                             </span>
                             <span className="text-green-500">]</span>

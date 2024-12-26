@@ -26,10 +26,7 @@ const Footer = () => {
                 </div>
 
                 <div className="mt-8 pt-8 border-t border-zinc-200 dark:border-zinc-700 text-center text-zinc-600 dark:text-zinc-400">
-                    <p>
-                        © {new Date().getFullYear()} Cheedge Lee. All rights
-                        reserved.
-                    </p>
+                    <p>© {new Date().getFullYear()} Cheedge Lee</p>
                 </div>
             </div>
         </footer>

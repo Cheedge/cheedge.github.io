@@ -3,6 +3,8 @@ import linkedinIcon from '../assets/linkedin.svg';
 import codeIcon from '../assets/code_icon.svg';
 import orcidLogo from '../assets/orcid.svg';
 import leetcodeIcon from '../assets/leetcode.svg';
+import devIcon from '../assets/dev_icon.svg';
+import blogIcon from '../assets/rss_icon.svg';
 
 const SocialIconsInHeader = () => {
     return (
@@ -16,7 +18,7 @@ const SocialIconsInHeader = () => {
                 <img
                     src={githubIcon}
                     alt="GitHub Profile"
-                    className="h-10 w-10 sm:h-12 sm:w-12 lg:h-16 lg:w-16" // Responsive sizing
+                    className="h-10 w-10 sm:h-12 sm:w-12 lg:h-16 lg:w-16"
                 />
             </a>
             <a
@@ -28,11 +30,11 @@ const SocialIconsInHeader = () => {
                 <img
                     src={linkedinIcon}
                     alt="LinkedIn Profile"
-                    className="h-10 w-10 sm:h-12 sm:w-12 lg:h-16 lg:w-16" // Responsive sizing
+                    className="h-10 w-10 sm:h-12 sm:w-12 lg:h-16 lg:w-16"
                 />
             </a>
             <a
-                href="https://orcid.org/0000-0003-4689-2190"
+                href="https://xn--einbrgerungstest-mzb.leeindeutschland.de/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-800"
@@ -40,7 +42,7 @@ const SocialIconsInHeader = () => {
                 <img
                     src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Flag_map_of_Germany.svg"
                     alt="German Flag"
-                    className="h-10 w-10 sm:h-12 sm:w-12 lg:h-16 lg:w-16" // Responsive sizing
+                    className="h-10 w-10 sm:h-12 sm:w-12 lg:h-16 lg:w-16"
                 />
             </a>
             <a
@@ -52,7 +54,31 @@ const SocialIconsInHeader = () => {
                 <img
                     src={codeIcon}
                     alt="code Profile"
-                    className="h-10 w-10 sm:h-12 sm:w-12 lg:h-16 lg:w-16" // Responsive sizing
+                    className="h-10 w-10 sm:h-12 sm:w-12 lg:h-16 lg:w-16"
+                />
+            </a>
+            <a
+                href="https://dev.to/cheedge_lee"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-800"
+            >
+                <img
+                    src={devIcon}
+                    alt="code Profile"
+                    className="h-10 w-10 sm:h-12 sm:w-12 lg:h-16 lg:w-16"
+                />
+            </a>
+            <a
+                href="https://notes-renovation.hashnode.dev/?source=top_nav_blog_home"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-800"
+            >
+                <img
+                    src={blogIcon}
+                    alt="code Profile"
+                    className="h-10 w-10 sm:h-12 sm:w-12 lg:h-16 lg:w-16"
                 />
             </a>
             <a
