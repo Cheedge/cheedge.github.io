@@ -18,7 +18,7 @@ export const certificates = [
         title: 'LPIC-1 (101-500v & 102-500v)',
         issuer: 'Linux Professinal Institute',
         date: 'May 2024',
-        link: 'https://cs.lpi.org/caf/Xamman/certification',
+        link: 'https://cs.lpi.org/caf/Xamman/certification/verify/LPI000610497/cez685d3g5',
         image: linuxLogo,
     },
     {
