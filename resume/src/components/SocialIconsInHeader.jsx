@@ -5,6 +5,7 @@ import orcidLogo from '../assets/orcid.svg';
 import leetcodeIcon from '../assets/leetcode.svg';
 import devIcon from '../assets/dev_icon.svg';
 import blogIcon from '../assets/rss_icon.svg';
+import hashnodeIcon from '../assets/hashnode-icon-svgrepo-com.svg';
 
 const SocialIconsInHeader = () => {
     return (
@@ -76,7 +77,7 @@ const SocialIconsInHeader = () => {
                 className="p-2 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-800"
             >
                 <img
-                    src={blogIcon}
+                    src={hashnodeIcon}
                     alt="code Profile"
                     className="h-10 w-10 sm:h-12 sm:w-12 lg:h-16 lg:w-16"
                 />
@@ -102,6 +103,18 @@ const SocialIconsInHeader = () => {
                 <img
                     src={leetcodeIcon}
                     alt="leetcode Profile"
+                    className="h-8 w-8 sm:h-10 sm:w-10 lg:h-16 lg:w-16" // Responsive sizing
+                />
+            </a>
+            <a
+                href="https://medium.com/@cheedgelee"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-800"
+            >
+                <img
+                    src={blogIcon}
+                    alt="medium Profile"
                     className="h-8 w-8 sm:h-10 sm:w-10 lg:h-16 lg:w-16" // Responsive sizing
                 />
             </a>

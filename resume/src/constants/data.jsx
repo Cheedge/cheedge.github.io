@@ -1,12 +1,21 @@
 import linuxLogo from '../assets/linux_color_logo.svg';
-import azureLogo from '../assets/azure_icon.svg';
-import awsIcon from '../assets/aws_icon.svg';
+// import azureLogo from '../assets/azure-svgrepo-com.svg';
+import azureLogo from '../assets/azure-v2-svgrepo-com.svg';
+import awsIcon from '../assets/aws-svgrepo-com.svg';
 import embeddingIcon from '../assets/embedding.svg';
-import cIcon from '../assets/c_icon.svg';
-import dockerIcon from '../assets/docker_icon.svg';
+import cIcon from '../assets/C_Programming_Language.svg';
+// import dockerIcon from '../assets/docker_icon.svg';
 import transIcon from '../assets/translate_icon.svg';
+import ckaIcon from '../assets/kubernetes-cka-color.svg';
 
 export const certificates = [
+    {
+        title: 'CKA',
+        issuer: 'Linux Foundation',
+        date: 'January 2025',
+        link: 'https://www.credly.com/badges/be14845a-c39e-4651-ae26-de46fdd3929a',
+        image: ckaIcon,
+    },
     {
         title: 'AWS Certified Cloud Practitioner',
         issuer: 'Amazon Web Services',
@@ -29,14 +38,7 @@ export const certificates = [
         image: azureLogo,
     },
     {
-        title: 'Docker',
-        issuer: 'Docker',
-        date: '2024',
-        link: 'https://google.com/certificates',
-        image: dockerIcon,
-    },
-    {
-        title: 'Embedding System (Level 3)',
+        title: 'Embedded System (Level 3)',
         issuer: 'National Education Examinations Authority',
         date: 'September 2014',
         link: 'http://chaxun.neea.edu.cn/',
