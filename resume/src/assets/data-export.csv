@@ -4,61 +4,65 @@
 # Property: website
 # ----------------------------------------
 #  
-# Start date: 20241220
-# End date: 20250116
+# Start date: 20241225
+# End date: 20250121
 Country ID,Active users
-DE,17
+DE,18
 PK,1
 SC,2
-US,6
+US,10
 
-# Start date: 20241220
-# End date: 20250116
+# Start date: 20241225
+# End date: 20250121
 Country,Active users
-DE,17
-US,6
+DE,18
+US,10
 SC,2
 PK,1
 
 #  
-# Start date: 20241220
-# End date: 20250116
+# Start date: 20241225
+# End date: 20250121
 City,Active users
 Munich,15
+Des Moines,3
+Appomattox,1
 Ashburn,1
+Boydton,1
 Greifswald,1
 Karachi,1
+Munster,1
 Traunstein,1
 
 #  
-# Start date: 20241220
-# End date: 20250116
+# Start date: 20241225
+# End date: 20250121
 Gender,Active users
 
 
 #  
-# Start date: 20241220
-# End date: 20250116
+# Start date: 20241225
+# End date: 20250121
 Interests,Active users
 
 
 #  
-# Start date: 20241220
-# End date: 20250116
+# Start date: 20241225
+# End date: 20250121
 Age,Active users
 
 
 #  
-# Start date: 20241220
-# End date: 20250116
+# Start date: 20241225
+# End date: 20250121
 Language,Active users
-English,26
+English,27
+German,2
 Chinese,1
-German,1
 
 #  
-# Start date: 20240919
-# End date: 20250116
+# Start date: 20240924
+# End date: 20250121
 Cohort,Average 120d value
 0000,0
 0001,0
