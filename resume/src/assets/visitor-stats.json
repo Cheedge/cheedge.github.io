@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-01-22T01:43:58.229Z",
-  "totalVisitors": 26,
+  "timestamp": "2025-01-23T01:42:14.494Z",
+  "totalVisitors": 31,
   "visitorsByCountry": {
-    "DE": 17,
-    "US": 6,
+    "DE": 18,
+    "US": 10,
     "SC": 2,
     "PK": 1
   }
