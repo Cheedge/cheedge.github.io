@@ -1,10 +1,11 @@
 {
-  "timestamp": "2025-03-05T01:49:06.860Z",
-  "totalVisitors": 31,
+  "timestamp": "2025-03-05T14:50:14.394Z",
+  "totalVisitors": 73,
   "visitorsByCountry": {
-    "DE": 18,
-    "US": 10,
+    "DE": 29,
+    "US": 40,
     "SC": 2,
-    "PK": 1
+    "PK": 1,
+    "CN": 1
   }
 }
