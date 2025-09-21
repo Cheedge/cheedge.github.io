@@ -46,6 +46,17 @@ const ResumePage = () => {
                     <Publications />
                     <SocialLinks />
                 </main>
+                {/* Add this p tag here to enable the cheedge.github.io/tech-notes Page/*}
+                <p className="mt-8 text-center">
+                    <a
+                      href="https://cheedge.github.io/tech-notes/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Tech Notes
+                    </a>
+                </p>
                 <Footer />
             </div>
         </div>
