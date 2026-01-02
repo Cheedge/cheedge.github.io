@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-01-02T09:56:16.862Z",
-    "totalVisitors": 232,
-    "visitorsByCountry": {
-        "US": 147,
-        "DE": 75,
-        "NL": 3,
-        "IN": 2,
-        "PK": 2,
-        "SC": 2,
-        "CN": 1
-    }
+  "timestamp": "2026-01-02T10:10:47.340Z",
+  "totalVisitors": 232,
+  "visitorsByCountry": {
+    "US": 147,
+    "DE": 75,
+    "NL": 3,
+    "IN": 2,
+    "PK": 2,
+    "SC": 2,
+    "CN": 1
+  }
 }
