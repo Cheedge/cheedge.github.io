@@ -1,4 +1,3 @@
-// src/assets/utils/analytics.js
 import ReactGA from 'react-ga4';
 
 const GA_MEASUREMENT_ID = import.meta.env.VITE_GOOGLE_ANALYTICS_MEASURE_ID;
@@ -45,7 +44,6 @@ export const trackVisitorCount = async () => {
 };
 
 async function fetchVisitorCount() {
-    // In reality, you would:
     // 1. Set up GA4 Data API
     // 2. Create a backend endpoint that uses GA4 API
     // 3. Call that endpoint here

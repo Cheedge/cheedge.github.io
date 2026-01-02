@@ -1,14 +1,30 @@
-import linuxLogo from '../assets/linux_color_logo.svg';
-// import azureLogo from '../assets/azure-svgrepo-com.svg';
-import azureLogo from '../assets/azure-v2-svgrepo-com.svg';
-import awsIcon from '../assets/aws-svgrepo-com.svg';
-import embeddingIcon from '../assets/embedding.svg';
+// import linuxLogo from '../assets/linux_color_logo.svg';
+import azureLogo from '../assets/azure-fund.png';
+// import azureLogo from '../assets/azure-v2-svgrepo-com.svg';
+// import awsIcon from '../assets/aws-svgrepo-com.svg';
+import awsCPIcon from '../assets/aws-certified-cloud-practitioner.png';
+// import embeddingIcon from '../assets/embedding.svg';
+import ncreIcon from '../assets/ncre.png';
 import cIcon from '../assets/C_Programming_Language.svg';
 // import dockerIcon from '../assets/docker_icon.svg';
 import transIcon from '../assets/translate_icon.svg';
 import ckaIcon from '../assets/kubernetes-cka-color.svg';
+import cksIcon from '../assets/cks.svg';
+import lpicIcon from '../assets/lpic-1-certification.png';
+import laserhelperIcon from '../assets/laser-helper-icon.png';
+import flagGermanyIcon from '../assets/Flag_map_of_Germany.svg';
+import psyduck from '../assets/psyduck.svg';
+import devIcon from '../assets/dev_icon.svg';
+import rssIcon from '../assets/rss_icon.svg';
 
 export const certificates = [
+    {
+        title: 'CKS',
+        issuer: 'Linux Foundation',
+        date: 'December 2025',
+        link: 'https://www.credly.com/badges/d4f2e3ee-c5e8-42e2-811a-796274d71cab/public_url',
+        image: cksIcon,
+    },
     {
         title: 'CKA',
         issuer: 'Linux Foundation',
@@ -21,14 +37,15 @@ export const certificates = [
         issuer: 'Amazon Web Services',
         date: 'June 2024',
         link: 'https://cp.certmetrics.com/amazon/en/public/verify/credential/8b6ab53361534bc39301461ebb2d8843',
-        image: awsIcon,
+        image: awsCPIcon,
     },
     {
         title: 'LPIC-1 (101-500v & 102-500v)',
         issuer: 'Linux Professinal Institute',
         date: 'May 2024',
         link: 'https://cs.lpi.org/caf/Xamman/certification/verify/LPI000610497/cez685d3g5',
-        image: linuxLogo,
+        // image: linuxLogo,
+        image: lpicIcon,
     },
     {
         title: 'Microsoft certificated: Azure Fundamentals',
@@ -42,7 +59,7 @@ export const certificates = [
         issuer: 'National Education Examinations Authority',
         date: 'September 2014',
         link: 'http://chaxun.neea.edu.cn/',
-        image: embeddingIcon,
+        image: ncreIcon,
     },
     {
         title: 'C',
@@ -113,7 +130,39 @@ export const personalLinks = {
 
 export const projects = [
     {
+        title: 'Backend Portfolio',
+        image: rssIcon,
+        description:
+            'Interactive demonstrations of architecture patterns, APIs, security, messaging, cloud services by .NET/C# or Python',
+        link: 'https://www.leeindeutschland.de/',
+        technologies: [
+            'AWS_S3',
+            'AWS_Lambda',
+            'Neon',
+            'Netlify',
+            'React',
+            'C#',
+            'Python',
+        ],
+    },
+    {
+        title: 'Laser Helper App',
+        image: laserhelperIcon,
+        description:
+            'Laser Helper ist eine umfassende mobile Anwendung für Physiker, Forscher und Studierende, die mit ultraschnellen Lasersystemen und elektromagnetischer Strahlung arbeiten',
+        link: 'https://play.google.com/store/apps/details?id=com.cheedgelee.laserhelper&hl=de',
+        technologies: [
+            'Google Play',
+            'Expo',
+            'React Native',
+            'React',
+            'tailwindcss',
+            'vite',
+        ],
+    },
+    {
         title: 'Leben In Deutschland',
+        image: flagGermanyIcon,
         description:
             'A test and exerise website to prepare LiD Prüfung or Einbürgerungstest',
         link: 'https://xn--einbrgerungstest-mzb.leeindeutschland.de/',
@@ -130,6 +179,7 @@ export const projects = [
     },
     {
         title: 'L.Q.Z.',
+        image: psyduck,
         description: 'Personal Website',
         link: 'https://cheedge.leeindeutschland.de/',
         technologies: [
@@ -145,6 +195,7 @@ export const projects = [
     },
     {
         title: 'N2-Survey (Dev Team)',
+        image: devIcon,
         description: 'Survey Data Visulization tool',
         link: 'https://github.com/N2-Survey',
         technologies: [

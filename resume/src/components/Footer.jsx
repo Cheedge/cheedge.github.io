@@ -1,6 +1,7 @@
 // src/assets/components/Footer.jsx
 import React from 'react';
 import Visitors from './Visitors.jsx';
+import { CommandText } from './TerminalContainer';
 
 const Footer = () => {
     return (
@@ -18,10 +19,15 @@ const Footer = () => {
                     </div> */}
                     <Visitors />
                     <div>
-                        <h3 className="font-mono text-lg mb-4">Contact</h3>
-                        <p className="text-zinc-600 dark:text-zinc-400">
+                        {/* <h3 className="font-mono text-lg mb-4">Contact</h3> */}
+                        <CommandText
+                            cmd="mail"
+                            param1="-s 'contact'"
+                            param2="cheedgelee@gmail.com"
+                        />
+                        {/* <p className="text-zinc-600 dark:text-zinc-400">
                             Email: cheedgelee@gmail.com
-                        </p>
+                        </p> */}
                     </div>
                 </div>
 

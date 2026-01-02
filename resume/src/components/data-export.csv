@@ -1,66 +1,108 @@
 # ----------------------------------------
-# Report CSV Export
+# User attributes overview
 # Account: Cheedge Lee
 # Property: website
 # ----------------------------------------
 #  
-# Start date: 20241220
-# End date: 20250304
+# Start date: 20241001
+# End date: 20260101
 Country ID,Active users
-DE,28
-PK,1
-SC,2
-US,37
 CN,1
+DE,72
+IN,2
+NL,3
+PK,2
+SC,2
+US,147
 
-# Start date: 20241220
-# End date: 20250304
+# Start date: 20241001
+# End date: 20260101
 Country,Active users
-DE,28
-US,37
+US,147
+DE,72
+NL,3
+IN,2
+PK,2
 SC,2
-PK,1
 CN,1
 
 #  
-# Start date: 20241220
-# End date: 20250116
+# Start date: 20241001
+# End date: 20260101
 City,Active users
-Munich,15
+Munich,47
+Des Moines,42
+Flint Hill,32
+Boydton,29
+Appomattox,5
+Frankfurt,5
+Frankfurt am Main,3
+Amsterdam,2
+Karachi,2
+New York,2
 Ashburn,1
+Aspen,1
+Bad Honnef,1
+Bellenberg,1
+Bengaluru,1
+Berlin,1
+Beverungen,1
+Bhubaneswar,1
+Brambleton,1
+Bruchmuhlbach-Miesau,1
+Cary,1
+Cologne,1
+Council Bluffs,1
+Dresden,1
+Drunen,1
+Garching,1
+Geislingen,1
+Gottingen,1
 Greifswald,1
-Karachi,1
+Grimma,1
+Heilbronn,1
+Herdecke,1
+Hildesheim,1
+Ili,1
+Koblenz,1
+Kranzberg,1
+Leipzig,1
+Luckenwalde,1
+Munster,1
+Puchheim,1
+San Francisco,1
 Traunstein,1
+Veldhoven,1
 
 #  
-# Start date: 20241220
-# End date: 20250116
+# Start date: 20241001
+# End date: 20260101
 Gender,Active users
 
 
 #  
-# Start date: 20241220
-# End date: 20250116
+# Start date: 20241001
+# End date: 20260101
 Interests,Active users
 
 
 #  
-# Start date: 20241220
-# End date: 20250116
+# Start date: 20241001
+# End date: 20260101
 Age,Active users
 
 
 #  
-# Start date: 20241220
-# End date: 20250116
+# Start date: 20241001
+# End date: 20260101
 Language,Active users
-English,26
-Chinese,1
-German,1
+English,224
+German,10
+Chinese,2
 
 #  
-# Start date: 20240919
-# End date: 20250116
+# Start date: 20250903
+# End date: 20251231
 Cohort,Average 120d value
 0000,0
 0001,0

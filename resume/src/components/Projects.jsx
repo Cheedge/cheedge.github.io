@@ -23,6 +23,11 @@ const Projects = () => {
                                     rel="noopener noreferrer"
                                     className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors"
                                 >
+                                    <img
+                                        src={project.image}
+                                        alt={project.title}
+                                        className="w-16 h-16 rounded-sm mb-2"
+                                    />
                                     <h3 className="text-lg font-semibold mb-2">
                                         {project.title}
                                     </h3>

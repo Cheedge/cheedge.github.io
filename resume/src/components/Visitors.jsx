@@ -33,9 +33,9 @@ const Visitors = () => {
     }, []);
 
     const getColor = (visitorCount) => {
-        if (visitorCount > 30) {
+        if (visitorCount > 100) {
             return '#FF5722';
-        } else if (visitorCount > 10) {
+        } else if (visitorCount > 50) {
             return '#ffa500';
         } else if (visitorCount >= 1) {
             return '#Fafa00';
@@ -53,11 +53,16 @@ const Visitors = () => {
     };
 
     return (
-        <div className="space-y-4">
+        <div className="space-y-1">
             <div>
-                <CommandText cmd="visitor-map" suffix="--render" />
+                <CommandText
+                    cmd="grep"
+                    param1="'Accepted'"
+                    file="/var/log/auth"
+                    suffix="log"
+                />
                 <div
-                    className="mt-3 h-[300px] bg-zinc-800 rounded-lg p-2 relative"
+                    className="mt-1 h-[300px] bg-sky-600 rounded-lg p-2 relative"
                     onMouseMove={handleMouseMove}
                 >
                     <ComposableMap

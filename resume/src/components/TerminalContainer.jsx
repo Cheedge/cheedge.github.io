@@ -24,7 +24,7 @@ const terminalTextStyle = {
     fontSize: '1.2rem', // Adjust as needed
 };
 
-export const CommandText = ({ cmd, file, suffix }) => {
+export const CommandText = ({ cmd, file, suffix, param1, param2 }) => {
     return (
         <h2
             className="text-xl font-mono, mb-6 flex items-center"
@@ -32,9 +32,10 @@ export const CommandText = ({ cmd, file, suffix }) => {
         >
             <span className="text-yellow-500 mr-3">$</span>
             <span className="text-lime-500">{cmd}</span>{' '}
+            <span className="text-red-300 ml-3">{param1}</span>
             {file && (
                 <>
-                    <span className="text-grey-500 ml-3">{file}</span>{' '}
+                    <span className="text-blue-500 ml-3">{file}</span>{' '}
                     {/* Added ml-1 for space */}
                     {suffix && (
                         <>
@@ -45,6 +46,7 @@ export const CommandText = ({ cmd, file, suffix }) => {
                     )}
                 </>
             )}
+            <span className="text-sky-500 ml-3">{param2}</span>
         </h2>
     );
 };

@@ -24,7 +24,7 @@ const Certificates = () => {
                                     <img
                                         src={cert.image}
                                         alt={cert.title}
-                                        className="w-16 h-16 rounded-full"
+                                        className="w-16 h-16 rounded-sm"
                                     />
                                     <div>
                                         <h3 className="font-medium">
